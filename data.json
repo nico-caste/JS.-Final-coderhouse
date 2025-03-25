@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "marca": "Samsung",
+        "tipo": "Smartphone",
+        "precioPesos": 150000,
+        "precioDolares": 13500,
+        "stock": 5
+    },
+    {
+        "id": 2,
+        "marca": "Apple",
+        "tipo": "Laptop",
+        "precioPesos": 300000,
+        "precioDolares": 27000,
+        "stock": 2
+    },
+    {
+        "id": 3,
+        "marca": "Sony",
+        "tipo": "Auriculares",
+        "precioPesos": 50000,
+        "precioDolares": 4500,
+        "stock": 7
+    },
+    {
+        "id": 4,
+        "marca": "LG",
+        "tipo": "SmartTV",
+        "precioPesos": 200000,
+        "precioDolares": 18000,
+        "stock": 2
+    },
+    {
+        "id": 5,
+        "marca": "Samsung",
+        "tipo": "SmartTV",
+        "precioPesos": 250000,
+        "precioDolares": 22500,
+        "stock": 3
+    },
+    {
+        "id": 6,
+        "marca": "Apple",
+        "tipo": "Smartphone",
+        "precioPesos": 130000,
+        "precioDolares": 11000,
+        "stock": 4
+    },
+    {
+        "id": 7,
+        "marca": "Sony",
+        "tipo": "Laptop",
+        "precioPesos": 250000,
+        "precioDolares": 22500,
+        "stock": 5
+    },
+    {
+        "id": 8,
+        "marca": "LG",
+        "tipo": "Auriculares",
+        "precioPesos": 40000,
+        "precioDolares": 37000,
+        "stock": 9
+    }
+]
