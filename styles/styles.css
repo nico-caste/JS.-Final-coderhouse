@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(31, 14, 68);
+    background-color: rgb(15, 24, 36);
     font-family: Arial, sans-serif;
     color: whitesmoke;
     margin: 10px;
@@ -8,13 +8,13 @@ body {
     min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 0,5fr 1fr 1fr 1fr;
     grid-gap: 20px;
-    grid-template-areas: 
-    "11 12 13"
-    "21 22 23"
-    "31 32 33"
-    "41 btn 43"
+    grid-template-areas:
+    "dc us btn"
+    ". . ."
+    ". . ."
+    ". . ."
     ;
 }
 .product-card {
@@ -27,12 +27,33 @@ body {
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
 .carrito-btn {
-    width: 200px;
-    height: 90px;
+    width: 220px;
+    height: 60px;
+    border: none;
     border-radius: 15px;
     align-self: center;
     justify-self: center;
     grid-area: btn;
     font-size: xx-large;
     font-weight: bold;
+}
+.dolar-card {
+    grid-area: dc;
+}
+.saludo{
+    grid-area: us;
+    font-weight: bold;
+}
+.sesion-btn {
+    border: none;
+    border-radius: 5px;
+}
+button {
+    cursor: pointer;
+    border: none;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    align-self: center;
+    font-size: medium;
+    width: 220px;
 }
